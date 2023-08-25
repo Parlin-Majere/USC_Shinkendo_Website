@@ -1,0 +1,476 @@
+@font-face {
+  font-family: 'Gowun-Batang';
+  src: local('Gowun-Batang'), url(./fonts/ttf/GowunBatang-Regular.ttf) format('truetype');
+}
+
+a:link { text-decoration: none; color:black;}
+
+a:visited { text-decoration: none; color:black;}
+
+a:hover { text-decoration: none; color:black;}
+
+a:active { text-decoration: none; color:black;}
+
+#Title_Sect{
+  margin-top:0;
+  text-align: center;
+  background-image: url("./image/029.JPG");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  top:0;
+  bottom:0;
+  min-height:min(300px,40vh);
+  height: 45vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid{
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:0px;
+  padding-right:0px;
+  font-family: "Gowun-Batang";
+}
+
+
+#Eng_Title{
+  text-align:center;
+  padding-left:auto;
+  padding-right:auto;
+  font-size: min(10vw,72px);
+  color:white;
+  padding-top:10%;
+}
+
+#Jpn_Title{
+  text-align:center;
+  padding-left:auto;
+  padding-right:auto;
+  font-size: min(10vw,72px);
+  color:white;
+}
+
+#Intro_Title{
+  margin-top:10%;
+  align-items: center;
+  text-align: center;
+  padding-left:auto;
+  padding-right:auto;
+  font-size: min(7vw,42px);
+  color:black;
+}
+
+#Intro{
+  padding-left:5%;
+  padding-right: 5%;
+}
+
+#video{
+  display:flex;
+  align-self: center;
+  width: 85vw;
+  height:52vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.responsive-iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-width:100%;
+  height:100%;
+  align-self:center;
+}
+
+#Location_Sect{
+  margin-top:15px;
+  min-height: 45vh;
+  height:fit-content;
+  width:100%;
+  background-color: #484848;
+  margin-bottom:15px;
+}
+
+#Practice_Title{
+  width:80%;
+  margin-top:max(65px,15%);
+  margin-left:10%;
+  align-items: center;
+  text-align: center;
+  font-size: min(7vw,42px);
+  color:white;
+  margin-bottom:10%;
+}
+
+#Practice_Info{
+  height:100%;
+  min-width:min(100%,600px);
+  width:80%;
+}
+
+#Map_Body{
+  align-items: center;
+  display: flex;
+  height:auto;
+  min-width:min(100%,600px);
+  width:65%;
+  align-items: center;
+}
+
+#Map{
+  width:65vw;
+  margin-left:auto;
+  margin-right:auto;
+  height:auto;
+}
+
+#Join_Info_Sect{
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+  height:fit-content;
+}
+
+#Join_Title{
+  margin-top:5%;
+  align-items: center;
+  text-align: center;
+  font-size: min(7vw,42px);
+  color:black;
+  font-family:"Gowun-Batang";
+}
+
+#Join_Picture{
+  min-width: min(100%,600px);
+  width:60%;
+  display:flex;
+  align-items: center;
+  height:auto;
+}
+
+#Join_Group_Pic{
+  width:100%;
+  height:auto;
+}
+
+#Join_Info_Contect{
+  min-width: min(100%,600px);
+  width:40%;
+  height:auto;
+}
+
+#QA_Sect{
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+  height:fit-content;
+  background-color: #484848;
+}
+
+#QA_Content{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+#QA_Title{
+  font-size: min(7vw,42px);
+  padding-top:2vh;
+  margin-bottom:2vh;
+  align-self: center;
+  color: white;
+  text-align: center;
+  font-family:"Gowun-Batang"
+}
+
+.Question{
+  font-size:min(5vw,34px);
+  font-weight:bold;
+  color: white;
+  margin-top:1.5vh;
+  margin-bottom:1.5vh;
+}
+
+.Answer{
+  font-size:min(5vw,34px);
+  color: white;
+  padding-bottom:3vh;
+}
+
+#Gallery{
+  width:80vw;
+  margin:auto;
+}
+
+#Gallery_Title{
+  margin-top:3vh;
+  margin-bottom:3vh;
+  text-align: center;
+  font-size: min(7vw,42px);
+  color:black;
+}
+
+#Gallery_Grid{
+  display:grid;  
+  grid-template-rows: repeat(16,5vw);
+  grid-template-columns: repeat(10,1fr);
+}
+
+.gallery__item{
+  margin-bottom:0;
+}
+
+.gallery__item--1{
+  background-image: url("./image/Stage_Sparring.JPG");
+  background-size: cover;
+  background-position:center;
+  grid-column-start:1;
+  grid-column-end:7;
+  grid-row-start:1;
+  grid-row-end:6;
+}
+
+.gallery__item--2{
+  background-image: url("./image/James_Drawing.JPG");
+  background-size: cover;
+  background-position:center;
+  grid-column-start:7;
+  grid-column-end:11;
+  grid-row-start:1;
+  grid-row-end:6;
+}
+
+.gallery__item--3{
+  background-image: url("./image/Gym_Sparring.JPG");
+  background-size: cover;
+  background-position:center;
+  grid-column-start:1;
+  grid-column-end:11;
+  grid-row-start:6;
+  grid-row-end:12;
+}
+
+.gallery__item--4{
+  background-image: url("./image/Tommy_Trojan_GroupPic_1.JPG");
+  background-size: cover;
+  background-position:center;
+  grid-column-start:1;
+  grid-column-end:6;
+  grid-row-start:12;
+  grid-row-end:16;
+}
+
+.gallery__item--5{
+  background-image: url("./image/Group_Dinner.JPG");
+  background-size: cover;
+  background-position:center;
+  grid-column-start:6;
+  grid-column-end:11;
+  grid-row-start:12;
+  grid-row-end:16;
+}
+
+#Contact_Sect{
+  align-items: center;
+  max-width:90vw;
+  margin-top:5vh;
+  margin:auto;
+}
+
+#Officers{
+  max-width: 80vw;
+  height:40vh;
+  background-image:url("./image/Officers.JPG");
+  background-size:cover;
+  background-position:center;
+  margin:auto;
+}
+
+#Contact_Title{
+  font-size: min(7vw,42px);
+  margin-top:3vh;
+  margin-bottom:3vh;
+  color: black;
+  text-align:center;
+}
+
+#Contact_Notice{
+  width:95%;
+  font-size:36px;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  color:black;
+  margin:auto;
+}
+
+#Officer_Contacts{
+  width:95%;
+  margin:auto;
+  margin-top:3vh;
+  margin-bottom:10vh;
+  font-size:min(4vw,30px);
+}
+
+#Timothy_Info{
+  margin-left:0;
+  margin-right:auto;
+  width:25%;
+  align-items: center;
+}
+
+#Louis_Info{
+  margin-left:auto;
+  margin-right:auto;
+  width:25%;
+  width:fit-content;
+}
+
+#Hanchen_Info{
+  margin-left:auto;
+  margin-right: 0;
+  width:25%;
+  width:fit-content;
+}
+
+.Officer_Name{
+  text-align: center;
+  font-weight: bold;
+}
+
+.Officer_Pos{
+  text-align: center;
+}
+
+.Officer_Email{
+  text-align: center;
+}
+
+#Hanchen_Pos{
+  color:white;
+}
+
+.LearnMore{
+  font-family:"Gowun-Batang";
+  font-size: min(6vw,36px);
+  margin-top:2vh;
+  margin-bottom:2vh;
+  font-weight:bold;
+}
+
+footer{
+  display:flex;
+  align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#Footer{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#Content_Black{
+  padding-left:7%;
+  padding-right: 7%;
+  font-size: min(38px,5vw);
+  color:black;
+  padding-top:min(5%,5vh);
+  padding-bottom:min(5%,5vh);
+}
+
+#Content_White{
+  padding-left:7%;
+  padding-right: 7%;
+  font-size: min(38px,5vw);
+  color:white;
+  padding-top:min(5%,5vh);
+  padding-bottom:min(5%,5vh);
+}
+
+#Sub_Head_Black{
+  padding-left:7%;
+  padding-right: 7%;
+  font-size: min(40px,6vw);
+  color:black;
+  padding-top:min(5%,5vh);
+  padding-bottom:min(5%,5vh);
+}
+
+#About_Picture_1{
+  background-image: url("./image/About_Pic_1.jpg");
+  background-size:cover;
+  background-position: center;
+}
+
+#About_Picture_2{
+  width:80%;
+  height:auto;
+  display:flex;
+  align-items: center;
+}
+
+#About_Picture_2_img{
+  width:80%;
+  margin-left:10%;
+  margin-right:auto;
+}
+
+#About_Title_Sect{
+  margin-top:0;
+  text-align: center;
+  background-image: url("./image/About_Pic_1.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  top:0;
+  bottom:0;
+  min-height:min(200px,30vh);
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#Join_Title_Sect{
+  margin-top:0;
+  text-align: center;
+  background-image: url("./image/Join_Title.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  top:0;
+  bottom:0;
+  min-height:min(200px,30vh);
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#Join_Picture_1{
+  width:80%;
+  height:auto;
+  display:flex;
+  align-items: center;
+}
+
+#Join_Picture_1_img{
+  width:80%;
+  margin-left: 10%;
+  margin-right:auto;
+}
+
+#Join_Picture_2{
+  width:80%;
+  height:auto;
+  display:flex;
+  align-items: center;
+}
+
+#Join_Picture_2_img{
+  width:80%;
+  margin-left: 10%;
+  margin-right:auto;
+}
