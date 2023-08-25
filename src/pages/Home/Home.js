@@ -41,7 +41,7 @@ function Home() {
           <div className="row">
             <div className="col" id="Practice_Info">
               <div id="Practice_Title">Practice Times and Location</div>
-              <div id="Content_White">Club practices are every Monday & Wednesday 8-10 pm in PED South (PED210)</div>
+              <div id="Content_White">Club practices are Tuesdays 4-6 pm and Thursdays 5-7 pm in PED South (PED 210)</div>
             </div>
             <div className="col" id="Map_Body">
               <img id="Map" src={require("../../image/map.jpg")} alt="Practice Map"/>
@@ -141,7 +141,7 @@ function Home() {
         </div>
 
         <footer>
-          <div id="Footer">Copyright © 2022 Shinkendo Swordsmanship Club</div>
+          <div id="Footer">Copyright © 2023 Shinkendo Swordsmanship Club</div>
         </footer>
 
       </div>
