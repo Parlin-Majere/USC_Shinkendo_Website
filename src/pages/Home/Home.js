@@ -117,23 +117,23 @@ function Home() {
         <div className="col justify-content-center" id="Contact_Sect">
           <div id="Contact_Title">Contact Us</div>
           <div id="Officers"></div>
-          <div id="Content_Black">If you have any other questions, feel free to email us at shinken@usc.edu or reach out to our officers:</div>
+          <div id="Content_Black">If you have any other questions, feel free to email us at shinken@usc.edu. Meet our officers:</div>
           
           <div className="row" id="Officer_Contacts">
-            <div className="col" id="Timothy_Info">
-              <div class="Officer_Name">Timothy Su</div>
+            <div className="col" id="Evan_Info">
+              <div class="Officer_Name">Evan Cheng</div>
               <div class="Officer_Pos">Treasurer</div>
-              <div class="Officer_Email">tjsu@usc.edu</div>
+              
             </div>
-            <div className="col" id="Louis_Info">
-              <div class="Officer_Name">Jiaqi "Louis" Lu</div>
+            <div className="col" id="JC_Info">
+              <div class="Officer_Name">JC Cargasacchi</div>
               <div class="Officer_Pos">President</div>
-              <div class="Officer_Email">jiaqilu@usc.edu</div>
+              
             </div>
             <div className="col" id="Hanchen_Info">
               <div class="Officer_Name">Hanchen Xie</div>
               <div class="Officer_Pos" id="Hanchen_Pos">Stand in</div>
-              <div class="Officer_Email">hanchenx@usc.edu</div>
+             
             </div>
 
           </div>
