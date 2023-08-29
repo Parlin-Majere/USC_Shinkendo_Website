@@ -91,16 +91,14 @@ function Home() {
             <div class="Answer">Of course! Many of our members have no prior martial arts experience. 
                                 Our Sensei and senpai will guide you through your Shinkendo Experience</div>
             <div class="Question">What is the difference between Kendo and Shinkendo?</div>
-            <div class="Answer">Kendo is a competitive sport in which members fight on a point system. 
-                                Shinkendo is not a sport but martial art that focuses on practical and 
-                                effective techniques and forms based on that of traditional Japanese 
-                                samurai. Unlike Kendo, Shinkendo has minimal physical contact and does 
-                                not require protective equipment. Rather than participating in 
-                                competitions, Shinkendo emphasizes self-improvement and training.</div>
+            <div class="Answer">Shinkendo is a martial art focused on preserving traditional samurai sword techniques, and we  
+                                do not host competitions. We have five areas of study: sword-drawing, solo kata (forms), paired kata, 
+                                  training exercises, test-cutting, two-sword technique, and long staff (bo).
+                                  Kendo is a martial sport with a point system.</div>
             <div class="Question">Do I need to attend every practice?</div>
             <div class="Answer">While we would love for you to attend as much as you can, we recognize that
                                  practice times may not always align with your schedule. If you have 
-                                 schedule conflicts, you can attend once a week, come lat, or leave 
+                                 schedule conflicts, you can attend once a week, come late, or leave 
                                  early as needed.</div>
             <div class="Question">What do I need to wear?</div>
             <div class="Answer">You may come in any comfortable clothes. We do ask that you eventually 
@@ -116,24 +114,27 @@ function Home() {
 
         <div className="col justify-content-center" id="Contact_Sect">
           <div id="Contact_Title">Contact Us</div>
-          <div id="Officers"></div>
-          <div id="Content_Black">If you have any other questions, feel free to email us at shinken@usc.edu. Meet our officers:</div>
           
+          <div id="Content_Black">If you have any other questions, feel free to email us at shinken@usc.edu. 
+                                    Our officers will answer any questions you may have.</div>
+          <div id="Officers">Meet our officers:</div>
           <div className="row" id="Officer_Contacts">
             <div className="col" id="Evan_Info">
               <div class="Officer_Name">Evan Cheng</div>
               <div class="Officer_Pos">Treasurer</div>
+              //include picture of Evan
               
             </div>
             <div className="col" id="JC_Info">
               <div class="Officer_Name">JC Cargasacchi</div>
               <div class="Officer_Pos">President</div>
+            //include picture of JC
               
             </div>
             <div className="col" id="Hanchen_Info">
               <div class="Officer_Name">Hanchen Xie</div>
               <div class="Officer_Pos" id="Hanchen_Pos">Stand in</div>
-             
+             //include picture of Hanchen
             </div>
 
           </div>
